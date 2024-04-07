@@ -1,0 +1,10 @@
+syntax ="proto3";
+package TestGoogleBuffer;
+
+message userInfo
+{
+	string name=1;
+	int64 gold=2;
+	int64 diamonds=3;
+	int32 level=4;
+}
